@@ -1,5 +1,6 @@
 # logger
 simple logger for java application
+
 //global static,saft invoke
 import site.bc.logger.Logger;
 public  class test{
