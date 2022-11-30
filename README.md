@@ -12,3 +12,4 @@ simple logger for java application
     }
 //
 }}
+![254](https://user-images.githubusercontent.com/28992783/204738243-46792ca6-92c1-4c2a-b1ed-445028ed1a23.png)
