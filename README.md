@@ -12,8 +12,6 @@ public  class test{
 }
 ```
 
-```
-
 /**
 ### config options:
 	basePath ="/var/log/";
@@ -22,7 +20,8 @@ public  class test{
 	fileExt =".log";
 	nolog="" //or "nolog";
 **/
-	
+```
+```
 public class Logger {
 	public static void config(Map<String, Object> params) {
 		//...
