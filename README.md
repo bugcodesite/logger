@@ -12,4 +12,46 @@ public  class test{
 }
 ```
 
-# 
+```
+
+/**
+### config options:
+	basePath ="/var/log/";
+	attachTimestamp =true;
+	storeByDay =true;
+	fileExt =".log";
+	nolog="" //or "nolog";
+**/
+	
+public class Logger {
+	public static void config(Map<String, Object> params) {
+		//...
+	}
+	public static void config(String basePath,fileExt,storeByDay,attachTimestamp) {
+		//...
+	}
+	public static boolean isDebug(){
+		//...
+	}
+	
+	public static void out(Object... msgs){
+		//...
+	}
+
+	public static void err(Object... msgs){
+		//...
+	}
+
+	public static void info(Object... msgs){
+		//...
+	}
+
+	public static void warn(Object... msgs){
+		//...
+	}
+
+	public static void log(String logtype, Object... msgs){
+		//...
+	}
+}
+```
