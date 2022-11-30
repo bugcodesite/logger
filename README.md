@@ -1,4 +1,4 @@
-# logger
+# site.bc.logger
 ### simple logger for java application,global static,saft invoke
 ```
 //global static,saft invoke
@@ -13,3 +13,4 @@ public  class test{
 ```
 
 ![254](https://user-images.githubusercontent.com/28992783/204740846-2246bed7-710f-438f-8ccb-8643171f8501.png)
+#@123
